@@ -1,4 +1,3 @@
-
 {
   "facturas": [
     {
@@ -24,6 +23,18 @@
       "fechaEmision": "2026-10-15",
       "fechaVencimiento": "2026-10-25",
       "estado": "pagada"
+    },
+    {
+      "numero": "F-561584",
+      "proveedorId": "PROV-001",
+      "descripcion": "hola soy una factura",
+      "subtotal": 100000,
+      "impuestos": 10000,
+      "total": 110000,
+      "fechaEmision": "2026-10-20",
+      "fechaVencimiento": "2026-10-21",
+      "estado": "borrador",
+      "id": "CJgUEM0"
     }
   ],
   "proveedores": [
