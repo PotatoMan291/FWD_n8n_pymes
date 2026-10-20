@@ -1,0 +1,45 @@
+
+{
+  "facturas": [
+    {
+      "id": "FAC-001",
+      "numero": "F-2026-001",
+      "proveedorId": "PROV-001",
+      "descripcion": "Compra de equipo informático",
+      "subtotal": 250000,
+      "impuestos": 32500,
+      "total": 282500,
+      "fechaEmision": "2026-10-10",
+      "fechaVencimiento": "2026-11-10",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FAC-002",
+      "numero": "F-2026-002",
+      "proveedorId": "PROV-002",
+      "descripcion": "Servicios de mantenimiento",
+      "subtotal": 80000,
+      "impuestos": 10400,
+      "total": 90400,
+      "fechaEmision": "2026-10-15",
+      "fechaVencimiento": "2026-10-25",
+      "estado": "pagada"
+    }
+  ],
+  "proveedores": [
+    {
+      "id": "PROV-001",
+      "nombre": "Tecnología Central",
+      "identificacion": "310100001",
+      "correo": "contacto@ejemplo.com",
+      "telefono": "2222-1111"
+    },
+    {
+      "id": "PROV-002",
+      "nombre": "Servicios Integrales",
+      "identificacion": "310100002",
+      "correo": "servicios@ejemplo.com",
+      "telefono": "2222-2222"
+    }
+  ]
+}
